@@ -33,7 +33,12 @@ public class Wizard {
 
   private final String name;
 
-  @Override
+  public Wizard(String string) {
+
+    this.name = string;
+}
+
+@Override
   public String toString() {
     return name;
   }
